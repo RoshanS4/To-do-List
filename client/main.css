@@ -1,19 +1,16 @@
 body {
-  font-family: sans-serif;
-  background-color: #315481;
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
-  background-attachment: fixed;
- 
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
- 
-  padding: 0;
-  margin: 0;
- 
-  font-size: 14px;
+    font-family:"Times New Roman", Times, serif;
+    background-color: #80bfff;
+    background-image: linear-gradient(to bottom, #80bfff, #ffe6b3 75%);
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
 }
  
 .container {
@@ -22,24 +19,26 @@ body {
   min-height: 100%;
   background: white;
 }
- 
+
 header {
-  background: #d2edf4;
-  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
-  padding: 20px 15px 15px 15px;
-  position: relative;
+    background: #ff8566;
+    background-image: linear-gradient(to bottom, #ff8566, #ff8566 100%);
+    padding: 20px 15px 15px 15px;
+    position: relative;
 }
  
 #login-buttons {
   display: block;
+  color:white;
 }
  
 h1 {
-  font-size: 1.5em;
+  font-size: 3em;
   margin: 0;
   margin-bottom: 10px;
   display: inline-block;
   margin-right: 1em;
+  color: white;
 }
  
 form {
@@ -55,11 +54,13 @@ form {
   border: none;
   width: 100%;
   padding-right: 80px;
-  font-size: 1em;
+  font-size: 1.5em;
+  color:white;
 }
  
 .new-task input:focus{
   outline: 0;
+  color:white;
 }
  
 ul {
@@ -81,7 +82,7 @@ li {
   position: relative;
   list-style: none;
   padding: 15px;
-  border-bottom: #eee solid 1px;
+  border-bottom: #eee solid 1.5px;
 }
  
 li .text {
@@ -103,6 +104,7 @@ li.private {
  
 header .hide-completed {
   float: right;
+  color: white;
 }
  
 .toggle-private {
@@ -121,5 +123,6 @@ header .hide-completed {
  
   .new-task input {
     padding-bottom: 5px;
+    color:white;
   }
 }
